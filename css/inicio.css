@@ -25,6 +25,7 @@ position: relative;
 }
 .h1{
     word-spacing: 4px;
+   
 }
 .publi1{
     width: 25%;
@@ -50,10 +51,12 @@ position: relative;
 .motivacion{
     background-color: gray;
     font-size: 200%;
+    text-shadow: 0 2px black;
 }
 p{
     opacity: 0.5;
 }
+
 .images{
     width: 150px;
     margin: 5px;

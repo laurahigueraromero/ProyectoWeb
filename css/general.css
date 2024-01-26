@@ -1,3 +1,4 @@
+
 @font-face {
         font-family:letra;
         font-size: larger;
@@ -10,11 +11,12 @@
     .titulo{
         background-color:#a1cffb ;
         border: 8px solid #a1cffb;
+        text-shadow: 0 2px black;
        
     }
     .titulo2{
         font-family: letra, 'Times New Roman', Times, serif;
-      
+        
     }
   
 
