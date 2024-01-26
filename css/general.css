@@ -1,0 +1,24 @@
+@font-face {
+        font-family:letra;
+        font-size: larger;
+        src: url(./Sydhartta.ttf);
+    }
+    header{
+      
+        text-align: center;
+    }
+    .titulo{
+        background-color:#a1cffb ;
+        border: 8px solid #a1cffb;
+       
+    }
+    .titulo2{
+        font-family: letra, 'Times New Roman', Times, serif;
+      
+    }
+   footer{
+    
+   }
+
+
+

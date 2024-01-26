@@ -1,0 +1,76 @@
+/* meter pseudoelemntos*/
+.publicidad, .publicidad2{
+    width: 7rem;
+    height: 35rem;
+}
+.publicidad2{
+    float: right;
+    display: block;
+}
+.inf h1{
+    background-color:#a1cffb ;
+   text-align: centers;
+    float: center;
+     
+}
+.h1{
+    word-spacing: 4px;
+}
+.publi1{
+    width: 25%;
+    float: left;
+    margin-top: 2px;
+}
+.MenuNavegacion{
+    background-color:antiquewhite;
+    border: 3px dashed #a1cffb;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.images{
+    width: 150px;
+    margin: 5px;
+    border-radius: 4px;
+}
+.oferta{
+    text-align: center;
+}
+th{
+    border: 2px dashed #a1cffb;
+   
+}
+table td{ 
+    border: 1px dashed #a1cffb;
+    
+}
+table{
+    border-spacing: 30px 10px;
+    margin-right: 40px;
+}
+.callToAction{
+    text-align: center;
+    background-color: #a1cffb;
+    color: black;
+  
+}
+.boton{
+    width: 15%;
+    overflow: hidden;
+}
+
+button:hover{
+    color: black;
+    background-color: #a1cffb;
+}
+footer{
+   margin: 30%;
+   font-size: 20px;
+   border: 8px solid gray;
+    background-color: gray;
+    color: aliceblue;
+}
+
