@@ -1,17 +1,27 @@
 /* meter pseudoelemntos*/
+body{
+    background-image: url(../images/prueba.png);
+    padding: 2%;
+    margin: 2%;
+    color: white;
+}
 .publicidad, .publicidad2{
     width: 7rem;
     height: 35rem;
+   
+    
 }
 .publicidad2{
     float: right;
     display: block;
+position: relative;
+    z-index: 1;
 }
 .inf h1{
     background-color:#a1cffb ;
-   text-align: centers;
+   text-align: center;
     float: center;
-     
+    opacity: 0.8;
 }
 .h1{
     word-spacing: 4px;
@@ -20,7 +30,14 @@
     width: 25%;
     float: left;
     margin-top: 2px;
+    position: relative;
+    z-index: 1;
 }
+.MenuNavegacion:hover{
+   background-color: brown;
+    
+}
+
 .MenuNavegacion{
     background-color:antiquewhite;
     border: 3px dashed #a1cffb;
@@ -30,11 +47,20 @@
     text-align: center;
     
 }
-
+.motivacion{
+    background-color: gray;
+    font-size: 200%;
+}
+p{
+    opacity: 0.5;
+}
 .images{
     width: 150px;
     margin: 5px;
     border-radius: 4px;
+}
+.images:hover{
+    filter: grayscale(100%);
 }
 .oferta{
     text-align: center;
@@ -55,6 +81,7 @@ table{
     text-align: center;
     background-color: #a1cffb;
     color: black;
+    opacity: 0.8;
   
 }
 .boton{
@@ -67,10 +94,17 @@ button:hover{
     background-color: #a1cffb;
 }
 footer{
-   margin: 30%;
+   margin: 15%;
    font-size: 20px;
    border: 8px solid gray;
     background-color: gray;
     color: aliceblue;
+}
+.lupa{
+    width: 18px;
+}
+.buscador{
+    float: right;
+    opacity: 0.9;
 }
 
