@@ -3,6 +3,7 @@
         font-family:letra;
         font-size: larger;
         src: url(./Sydhartta.ttf);
+       
     }
     header{
       
@@ -12,11 +13,15 @@
         background-color:#a1cffb ;
         border: 8px solid #a1cffb;
         text-shadow: 0 2px black;
+        color: white;
        
     }
     .titulo2{
         font-family: letra, 'Times New Roman', Times, serif;
         
+    }
+    button :hover{
+        background-color: #a1cffb;
     }
   
 

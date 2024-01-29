@@ -4,10 +4,14 @@ body{
     padding: 2%;
     margin: 2%;
     color: white;
+    
+}
+header{
+    opacity: 0.8;
 }
 .publicidad, .publicidad2{
     width: 7rem;
-    height: 35rem;
+    height: 68rem;
    
     
 }
@@ -17,6 +21,7 @@ body{
 position: relative;
     z-index: 1;
 }
+.
 .inf h1{
     background-color:#a1cffb ;
    text-align: center;
@@ -52,6 +57,7 @@ position: relative;
     background-color: gray;
     font-size: 200%;
     text-shadow: 0 2px black;
+    opacity: 0.8;
 }
 p{
     opacity: 0.5;

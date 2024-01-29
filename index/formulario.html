@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="../css/general.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">FAH</h1>
+        
+        <h2 class="titulo2">Fit at home</h2>
+    </header>
+    <!--REQUISITOS!!!!!-->
+    <section class="formulario">
+        <form method="post">
+            Nombre:<input type="text" name="usuario"/><br>
+            Apellidos:<input type="text" name="usuario"/><br>
+            DNI:<input type="text" name="usuario" maxlength="8" /><br>
+            Dirección:<input type="text" name="usuario"/><br>
+            Ciudad:<input type="text" name="usuario"/><br>
+            CP:<input type="text" name="usuario" max="5"/><br>
+            País:<input type="text" name="usuario"/><br>
+            Nacimiento:<input type="text" name="usuario"/><br>
+            Em@il:<input type="text" name="usuario" required/><br>
+            Contraseña:<input type="text" name="pass"/><br>
+            <input type="checkbox" name="condiciones"/> Mujer
+            <input type="checkbox" name="condiciones"/> Hombre <br>
+            <label for="Aficiones">Aficiones</label>
+            <select name="Aficiones" id="Aficiones"> 
+                <option value="Cárdio">Cárdio</option>
+                <option value="Tonificación">Tonificación</option>
+                <option value="Musculación">Musculación</option>
+                <option value="Otro">Otro</option>
+            </select><br>
+            <input type="image" value="adjuntar foto"> <br>
+           <input type="submit" value="Enviar">
+        <input type="submit" value="Cancelar">
+        <input type="submit" value="Borrar"> 
+        </form>
+    </section>
+    <button> <a href="../index/inicio.html"> Menú Principal</a></button>
+</body>
+</html>
