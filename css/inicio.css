@@ -117,15 +117,15 @@ button:hover{
     opacity: 0.9;
     z-index: 100;
 }
-tr:hover{
-background-color: #a1cffb;
 
-}
+
 th:hover{
-    font-size: 200%;
+    font-size: 300%;
+    background-color: #a1cffb;
 }
 td:hover{
     font-size: 200%;
+    background-color: #a1cffb;
    
 }
 .MenuNavegacion a:hover{
