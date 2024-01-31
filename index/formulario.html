@@ -14,10 +14,14 @@
       
     </header>
    <section>
-    <h2 class="titulo2">Fit at home</h2>
+    <section class="logo">
+        <h2 class="titulo2">Fit at home</h2>
+    </section>
    </section>
     <section class="formuTitulo">
+        <marquee behavior="scroll" direction="right">
     <h1> Formulario de registro:</h1>
+</marquee>
 </section>
 <section class="mensaje">
     <p>Rellena el formulario <br> 
@@ -51,6 +55,12 @@
         </form>
     </section>
     <button class="mp"> <a href="../index/inicio.html"> Menú Principal</a></button>
-    <footer>contacta con nosotros: fit@athome.es</footer>
+    <div class="loader"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+     $(window).load(function() {
+         $(".loader").fadeOut("slow");
+     });
+     </script> 
 </body>
 </html>

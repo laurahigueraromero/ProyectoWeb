@@ -8,9 +8,6 @@ body{
     color: white;
    height: 30px;
 }
-.logo{
-    margin-left: 440px;
-}
 
 .publicidad, .publicidad2, .publicidad3, .publicidad4{
     width: 7rem;
@@ -120,4 +117,18 @@ button:hover{
     opacity: 0.9;
     z-index: 100;
 }
+tr:hover{
+background-color: #a1cffb;
 
+}
+th:hover{
+    font-size: 200%;
+}
+td:hover{
+    font-size: 200%;
+   
+}
+.MenuNavegacion a:hover{
+    font-size: 200%;
+    border-radius: 50px;
+}

@@ -1,5 +1,64 @@
-h1{
+body{
+    padding: 0;
+    margin: 0;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-image: url(../images/prueba.png);
+}
+.titular{
     text-align: center;
+    padding: 2px;
+    margin-left: 30%;
+    color: white;
+    text-shadow: 0 2px black;
+    background-color: gray;
+    opacity: 0.8;
+    width: 40%;
+    border-radius: 50%;
     text-decoration:underline;
     font-family: 'Courier New', Courier, monospace;
 }
+h2{
+    color: white;
+    
+}
+.s1{
+    display: flex;
+}
+.s2{
+    display: flex;
+}
+
+.s1a {
+    
+    float: left;
+    width: 70%;
+}
+.s1b .s1d{
+  
+  float: right;
+    width: 70%;
+   
+    
+}
+
+ .s1 h2{
+    width: 50%;
+    text-shadow: 0 2px black;
+    
+}
+.s2 h2{
+    width: 50%;
+    text-shadow: 0 2px black;
+    
+}
+ img{
+    width: 40%;
+   
+}
+img:hover{
+    border-radius:70%;
+    box-shadow: 0px 0px 15px 15px #a1cffb; 
+    -webkit-transform: rotateY(180deg);
+}
+
