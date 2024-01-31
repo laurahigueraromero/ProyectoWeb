@@ -1,6 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-image: url(../images/prueba.png);
+}
 form{
+    margin: 2px;
+    padding: 100px;
     text-align: center;
-    border: 2px dashed #a1cffb;
-    width: 55%;
+   background-color: #a1cffb;
+    width: 35%;
     margin-left: 150px;
+   
+}
+.titulo2{
+    margin-left: 440px;
+}
+.formuTitulo{
+    width: 80%;
+    float: right;
+    text-align: center;
+    background-color: #a1cffb;
+    color: white;
+    opacity: 0.8;
+    background-image: linear-gradient(180deg, #a1cffb, blue);
+    transform: perspective(1, 0.3,0,1,0,0);
+    transition: color 5s linear 1s transform 5s;
+    transition-duration: 3s;
+}
+.mensaje{
+    width: 10%;
+    text-align: center;
+    border: 2px solid #a1cffb;
+    background-color: #a1cffb;
+    transform: rotate(-20deg);
+    opacity: 0.8;
+}
+.mp{
+    margin-left: 350px;
 }
