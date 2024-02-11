@@ -52,6 +52,11 @@ h2{
     text-shadow: 0 2px black;
     
 }
+.s3 h2{
+    width: 50%;
+    text-shadow: 0 2px black;
+    
+}
  img{
     width: 40%;
    
@@ -60,5 +65,9 @@ img:hover{
     border-radius:70%;
     box-shadow: 0px 0px 15px 15px #a1cffb; 
     -webkit-transform: rotateY(180deg);
+}
+.s3{
+    margin-left: 200px;
+    width: 80%;
 }
 
